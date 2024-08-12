@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+  height: 100%;
+}
+#container {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 150px;
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  background-color: #0b83d3;
+  height: 50px
+}
+
+.navbar ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b83d3;
+}
+.navbar li{
+  float: right;
+  color: #ffffff;
+}
+.navbar ul li h1{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 14px 16px;
+}
+.navbar a{
+  display: block;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: #1900ffee;
+}
+.video-frame{
+  margin-left: 3%;
+  padding-top: 30px;
+}
+.title-a6tv{
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  color: #ffffff;
+}
+.title-a6tv h1{
+  font-weight: 500;
+}
+.container{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+}
+.container h1{
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+.team-line{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+.team-line h1{
+  font-weight: 300;
+  text-align: center;
+  color: #0b83d3;
+}
+.team-line h2{
+  color: #0b83d3;
+}
+.body-add-player-information-html{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: "Roboto", sans-serif;
+}
+.title-add-player-information-html{
+  color: #0b83d3;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.content-add-player-information-html{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.content-add-player-information-html p{
+  font-weight: 200;
+  font-size: 20px;
+}
+.footer-2{
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+  height: 150px;
+  background-color: #000000;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  margin-top: -100px;
+  clear: both;
+  text-align: center;
+  background-color: #0b83d3;
+  font-family: "Roboto", sans-serif;
+}
+.footer-container h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-container h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-container h2 a{
+  color: #ffffff;
+}
+@media(max-width: 600px){
+.footer-2{
+  display: none;
+
+}
+footer{
+  position: relative;
+}
+}
